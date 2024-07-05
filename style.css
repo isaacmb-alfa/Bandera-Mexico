@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+
+.container {
+    height: 647px;
+    width: 1000px;
+    background-color: rgb(209, 202, 4);
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.flex {
+    display: flex;
+}
+
+.green {
+    height: 100%;
+    width: 33.33%;
+    background-color: #2c6948;
+
+}
+
+.white {
+    background-color: white;
+    height: 100%;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #bb002f;
+    height: 100%;
+    width: 33.33%;
+}
+
+.sheel {
+    height: 35%;
+}
